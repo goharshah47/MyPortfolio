@@ -21,7 +21,7 @@ const CAREER_ITEMS: CareerItem[] = [
     role: "Senior Product Designer",
     company: "GotPhoto",
     period: "June 2025 – Present",
-    logo: "https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/work_logos/gotphoto.jpeg",
+    logo: "https://picsum.photos/seed/gotphoto/100/100",
     highlights: [
       "Led end-to-end design of Online Shop 2025",
       "Increased GMV per activated job (~10%)",
@@ -36,7 +36,7 @@ const CAREER_ITEMS: CareerItem[] = [
     role: "Senior Product Designer",
     company: "MYCS",
     period: "2023 – 2025",
-    logo: "https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/work_logos/mycs.png",
+    logo: "https://picsum.photos/seed/mycs/100/100",
     highlights: [
       "Revamped furniture configurator (30% sales increase)",
       "Improved checkout and reduced drop-offs",
@@ -48,7 +48,7 @@ const CAREER_ITEMS: CareerItem[] = [
     role: "Design Consultant",
     company: "nuSoft",
     period: "2021 – 2026",
-    logo: "https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/work_logos/nusoft.png",
+    logo: "https://picsum.photos/seed/nusoft/100/100",
     highlights: [
       "Designed AI-driven SaaS and FP&A tools",
       "Built UX architecture for supply chain software",
@@ -59,7 +59,7 @@ const CAREER_ITEMS: CareerItem[] = [
     role: "Senior Product Designer (Design System)",
     company: "heycar",
     period: "2022 (Berlin-Germany)",
-    logo: "https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/work_logos/heycar.jpeg",
+    logo: "https://picsum.photos/seed/heycar/100/100",
     highlights: [
       "Built global design system foundations",
       "Improved accessibility to AA standards",
@@ -70,7 +70,7 @@ const CAREER_ITEMS: CareerItem[] = [
     role: "Senior Product Designer",
     company: "Retailo",
     period: "2021-2022 (Riyadh-KSA)",
-    logo: "https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/work_logos/retailo.png",
+    logo: "https://picsum.photos/seed/retailo/100/100",
     highlights: [
       "Led UX across mobile and B2B flows",
       "Conducted research, prototyping, usability testing",
@@ -81,7 +81,7 @@ const CAREER_ITEMS: CareerItem[] = [
     role: "Product Designer",
     company: "Fiber Mountain",
     period: "US",
-    logo: "https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/work_logos/fm.jpg",
+    logo: "https://picsum.photos/seed/fm/100/100",
     highlights: [
       "Built design system for enterprise data center platform",
       "Conducted interviews with technical operators",
@@ -161,7 +161,7 @@ function AppContent() {
     <div className="min-h-screen font-sans selection:bg-brand-ink selection:text-brand-bg bg-brand-bg text-brand-ink transition-colors duration-500">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-50 px-6 py-6 md:px-12 flex justify-between items-center bg-brand-bg/80 backdrop-blur-lg border-b border-brand-ink/5 transition-all duration-500">
-        <Link to="/" className="text-xl font-bold tracking-tighter cursor-pointer text-brand-ink">UA.</Link>
+        <Link to="/" className="text-xl font-bold tracking-tighter cursor-pointer text-brand-ink">SGA.</Link>
         <div className="flex items-center gap-8">
           <div className="hidden md:flex gap-8 text-xs font-bold uppercase tracking-[0.2em] text-brand-ink">
             <Link to="/" className={`hover:opacity-50 transition-opacity cursor-pointer ${location.pathname === '/' ? 'underline underline-offset-8' : ''}`}>HOME</Link>
@@ -320,22 +320,22 @@ function AppContent() {
                       If you're building ambitious products and need clarity in complexity, let’s talk.
                     </h2>
                     <div className="flex flex-wrap gap-10">
-                      <a href="mailto:usamaazam@gmail.com" className="group flex items-center gap-3">
+                      <a href="mailto:goharshah3@gmail.com" className="group flex items-center gap-3">
                         <div className="w-12 h-12 rounded-full border border-brand-ink/10 flex items-center justify-center group-hover:bg-brand-ink group-hover:text-brand-bg transition-all duration-300">
                           <Mail size={18} />
                         </div>
                         <div className="flex flex-col">
                           <span className="text-[10px] uppercase tracking-widest font-bold text-brand-ink/60">Email</span>
-                          <span className="font-bold text-sm">usamaazam@gmail.com</span>
+                          <span className="font-bold text-sm">goharshah3@gmail.com</span>
                         </div>
                       </a>
-                      <a href="https://www.linkedin.com/in/usamaazam/" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3">
+                      <a href="https://www.linkedin.com/in/goharshah/" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3">
                         <div className="w-12 h-12 rounded-full border border-brand-ink/10 flex items-center justify-center group-hover:bg-brand-ink group-hover:text-brand-bg transition-all duration-300">
                           <Linkedin size={18} />
                         </div>
                         <div className="flex flex-col">
                           <span className="text-[10px] uppercase tracking-widest font-bold text-brand-ink/60">LinkedIn</span>
-                          <span className="font-bold text-sm">Usama Azam</span>
+                          <span className="font-bold text-sm">Syed Gohar Ali</span>
                         </div>
                       </a>
                       <a href="#" className="group flex items-center gap-3">
@@ -456,7 +456,7 @@ function AppContent() {
 
       {/* Footer */}
       <footer className="px-6 md:px-12 py-12 border-t border-brand-ink/5 flex flex-col md:flex-row justify-between items-center gap-8 text-[10px] uppercase tracking-[0.3em] font-bold text-brand-ink/30">
-        <div>© 2026 Usama Azam — Berlin, Germany</div>
+        <div>© 2026 Syed Gohar Ali — Berlin, Germany</div>
       </footer>
     </div>
   );
@@ -505,7 +505,7 @@ function CaseStudies({ onNavigateToMYCS, onNavigateToRetailo, onNavigateToGotPho
                       className="aspect-[16/10] bg-brand-ink/[0.04] dark:bg-brand-ink/[0.04] rounded-3xl overflow-hidden border border-brand-ink/5 dark:border-brand-ink/5 group cursor-pointer"
                     >
                       <img 
-                        src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/casestudy/gotphoto.png" 
+                        src="https://picsum.photos/seed/gotphoto-hero/1200/800" 
                         alt="GotPhoto Case Study" 
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                         referrerPolicy="no-referrer"
@@ -598,7 +598,7 @@ function CaseStudies({ onNavigateToMYCS, onNavigateToRetailo, onNavigateToGotPho
                       className="aspect-[16/10] bg-brand-ink/[0.04] dark:bg-white/[0.04] rounded-3xl overflow-hidden border border-brand-ink/5 dark:border-white/5 group cursor-pointer"
                     >
                       <img 
-                        src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/retailo-screens%201.png" 
+                        src="https://picsum.photos/seed/retailo-hero/1200/800" 
                         alt="Retailo Case Study" 
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                         referrerPolicy="no-referrer"
@@ -617,7 +617,7 @@ function CaseStudies({ onNavigateToMYCS, onNavigateToRetailo, onNavigateToGotPho
                       className="aspect-[16/10] bg-brand-ink/[0.04] dark:bg-brand-ink/[0.04] rounded-3xl overflow-hidden border border-brand-ink/5 dark:border-brand-ink/5 group cursor-pointer"
                     >
                       <img 
-                        src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/casestudy/hisaab.png" 
+                        src="https://picsum.photos/seed/hisaab-hero/1200/800" 
                         alt="Hisaab Case Study" 
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                         referrerPolicy="no-referrer"
@@ -677,7 +677,7 @@ function CaseStudies({ onNavigateToMYCS, onNavigateToRetailo, onNavigateToGotPho
                       className="aspect-[16/10] bg-brand-ink/5 rounded-3xl overflow-hidden border border-brand-ink/5 group cursor-pointer"
                     >
                       <img 
-                        src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/casestudy/zyprova.png" 
+                        src="https://picsum.photos/seed/zyprova-hero/1200/800" 
                         alt="Zyprova Case Study" 
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                         referrerPolicy="no-referrer"
@@ -733,7 +733,7 @@ function CaseStudies({ onNavigateToMYCS, onNavigateToRetailo, onNavigateToGotPho
                       className="aspect-[16/10] bg-brand-ink/[0.04] dark:bg-brand-ink/[0.04] rounded-3xl overflow-hidden border border-brand-ink/5 dark:border-brand-ink/5 group cursor-pointer"
                     >
                       <img 
-                        src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/casestudy/mycs-header.png" 
+                        src="https://picsum.photos/seed/mycs-hero/1200/800" 
                         alt="MYCS Furniture Configurator" 
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                         referrerPolicy="no-referrer"
@@ -869,15 +869,15 @@ function CaseStudies({ onNavigateToMYCS, onNavigateToRetailo, onNavigateToGotPho
           Interested in building impactful products together?
         </h2>
         <a 
-          href="mailto:usamaazam@gmail.com"
+          href="mailto:goharshah3@gmail.com"
           className="inline-flex items-center gap-4 px-12 py-6 bg-brand-ink text-brand-bg rounded-full font-bold text-sm uppercase tracking-[0.2em] hover:scale-105 active:scale-95 transition-all"
         >
           Let’s Talk <Mail size={18} />
         </a>
         
         <div className="mt-24 flex justify-center gap-12">
-          <a href="mailto:usamaazam@gmail.com" className="text-[10px] uppercase tracking-widest font-bold text-brand-ink/40 hover:text-brand-ink transition-colors">Email</a>
-          <a href="https://www.linkedin.com/in/usamaazam/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-widest font-bold text-brand-ink/40 hover:text-brand-ink transition-colors">LinkedIn</a>
+          <a href="mailto:goharshah3@gmail.com" className="text-[10px] uppercase tracking-widest font-bold text-brand-ink/40 hover:text-brand-ink transition-colors">Email</a>
+          <a href="https://www.linkedin.com/in/goharshah/" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-widest font-bold text-brand-ink/40 hover:text-brand-ink transition-colors">LinkedIn</a>
           <a href="#" className="text-[10px] uppercase tracking-widest font-bold text-brand-ink/40 hover:text-brand-ink transition-colors">Resume</a>
         </div>
       </section>
@@ -1049,7 +1049,7 @@ function MYCSCaseStudy({ onBack }: { onBack: () => void }) {
 
             <div className="aspect-[16/9] bg-brand-ink/[0.04] dark:bg-brand-ink/[0.04] rounded-3xl overflow-hidden border border-brand-ink/5 dark:border-brand-ink/5">
               <img 
-                src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/casestudy/mycs-header.png" 
+                src="https://picsum.photos/seed/mycs-header/1200/800" 
                 alt="Redesigned MYCS Furniture Configurator Hero" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -1277,7 +1277,7 @@ function MYCSCaseStudy({ onBack }: { onBack: () => void }) {
                 “This project reinforced my belief that complex products don’t need more features — they need clearer decisions. By combining research, systems thinking, and visual clarity, we turned complexity into conversion.”
               </p>
               <footer className="text-xs uppercase tracking-[0.3em] font-bold text-brand-ink/60">
-                Usama Azam — Lead Product Designer
+                Syed Gohar Ali — Lead Product Designer
               </footer>
             </blockquote>
           </section>
@@ -1332,8 +1332,8 @@ function CaseStudyFooter({ currentId, onBack }: { currentId: string; onBack: () 
           Detailed flows and prototypes available upon request.
         </p>
         <div className="flex gap-6">
-           <a href="mailto:usamaazam@gmail.com" className="text-[10px] uppercase tracking-widest font-bold hover:opacity-50 transition-opacity">Contact</a>
-           <span className="text-[10px] uppercase tracking-widest font-bold text-brand-ink/20">© 2026 Usama Azam</span>
+           <a href="mailto:goharshah3@gmail.com" className="text-[10px] uppercase tracking-widest font-bold hover:opacity-50 transition-opacity">Contact</a>
+           <span className="text-[10px] uppercase tracking-widest font-bold text-brand-ink/20">© 2026 Syed Gohar Ali</span>
         </div>
       </div>
     </footer>
@@ -1701,7 +1701,7 @@ function NbulaCaseStudy({ onBack }: { onBack: () => void }) {
                 “In enterprise products, clarity is not about simplicity — it is about structure. Nbula reinforced my ability to design systems that scale without sacrificing usability.”
               </p>
               <footer className="text-xs uppercase tracking-[0.3em] font-bold text-brand-ink/60">
-                Usama Azam — Product Designer
+                Syed Gohar Ali — Product Designer
               </footer>
             </blockquote>
           </section>
@@ -1815,7 +1815,7 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
 
             <div className="rounded-3xl overflow-hidden border border-brand-ink/10 shadow-2xl">
               <img 
-                src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/retailo-screens%201.png" 
+                src="https://picsum.photos/seed/retailo-screens/1200/800" 
                 alt="Retailo Agent App Overview" 
                 className="w-full h-auto"
                 referrerPolicy="no-referrer"
@@ -1842,7 +1842,7 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
                 </div>
                 <div className="rounded-3xl overflow-hidden border border-brand-ink/10 shadow-xl">
                   <img 
-                    src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Option%205.png" 
+                    src="https://picsum.photos/seed/retailo-option/1200/800" 
                     alt="Marketplace Ecosystem" 
                     className="w-full h-auto"
                     referrerPolicy="no-referrer"
@@ -1883,7 +1883,7 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
             </div>
             <div className="rounded-3xl overflow-hidden border border-brand-ink/10 shadow-xl">
               <img 
-                src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Frame%20427318376.png" 
+                src="https://picsum.photos/seed/retailo-frame/1200/800" 
                 alt="Complex Operational Flows" 
                 className="w-full h-auto"
                 referrerPolicy="no-referrer"
@@ -1917,7 +1917,7 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
               </div>
               <div className="rounded-3xl overflow-hidden border border-brand-ink/10 shadow-lg bg-brand-ink/5">
                 <img 
-                  src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/My%20Day%20-%20V1.png" 
+                  src="https://picsum.photos/seed/retailo-myday/1200/800" 
                   alt="Field Research Context" 
                   className="w-full h-auto opacity-80"
                   referrerPolicy="no-referrer"
@@ -1951,7 +1951,7 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
             </div>
             <div className="rounded-3xl overflow-hidden border border-brand-ink/10 shadow-xl">
               <img 
-                src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Map%20filter%20Active.png" 
+                src="https://picsum.photos/seed/retailo-map-filter/1200/800" 
                 alt="Streamlined Delivery Flow" 
                 className="w-full h-auto"
                 referrerPolicy="no-referrer"
@@ -1973,15 +1973,15 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
                   </p>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                  <img src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Shops.png" alt="Shops List" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
-                  <img src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Shops%20Filter.png" alt="Shops Filter" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
+                  <img src="https://picsum.photos/seed/retailo-shops/1200/800" alt="Shops List" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
+                  <img src="https://picsum.photos/seed/retailo-shops-filter/1200/800" alt="Shops Filter" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="grid grid-cols-2 gap-4">
-                  <img src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Map.png" alt="Agent Map" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
-                  <img src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Map%20-%20Delivery.png" alt="Delivery View" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
+                  <img src="https://picsum.photos/seed/retailo-map/1200/800" alt="Agent Map" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
+                  <img src="https://picsum.photos/seed/retailo-delivery/1200/800" alt="Delivery View" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
                 </div>
                 <div className="space-y-6">
                   <h3 className="text-2xl font-bold tracking-tight">B) Agent Delivery Execution</h3>
@@ -1999,8 +1999,8 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
                   </p>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                  <img src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Shop%20Dashboard.png" alt="Shop Dashboard" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
-                  <img src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/End%20DAY.png" alt="End Day" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
+                  <img src="https://picsum.photos/seed/retailo-dashboard/1200/800" alt="Shop Dashboard" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
+                  <img src="https://picsum.photos/seed/retailo-endday/1200/800" alt="End Day" className="rounded-2xl border border-brand-ink/10 shadow-sm" referrerPolicy="no-referrer" />
                 </div>
               </div>
 
@@ -2008,12 +2008,12 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
                 <h3 className="text-xs uppercase tracking-widest font-bold text-brand-ink/40 text-center">Operational Interface Details</h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                   {[
-                    { src: "https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/To-Do.png", alt: "Task Management" },
-                    { src: "https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Shop%20Dashboard%20-%20Start%20Visit.png", alt: "Start Visit" },
-                    { src: "https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Shop%20Dashboard%20-%20End%20Visit.png", alt: "End Visit" },
-                    { src: "https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Geofence%20-%20Edge%20case.png", alt: "Geofencing" },
-                    { src: "https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Map%20-%20Delivery-1.png", alt: "Delivery Route" },
-                    { src: "https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/Shops-1.png", alt: "Retailer List" }
+                    { src: "https://picsum.photos/seed/retailo-todo/1200/800", alt: "Task Management" },
+                    { src: "https://picsum.photos/seed/retailo-startvisit/1200/800", alt: "Start Visit" },
+                    { src: "https://picsum.photos/seed/retailo-endvisit/1200/800", alt: "End Visit" },
+                    { src: "https://picsum.photos/seed/retailo-geofence/1200/800", alt: "Geofencing" },
+                    { src: "https://picsum.photos/seed/retailo-delivery-route/1200/800", alt: "Delivery Route" },
+                    { src: "https://picsum.photos/seed/retailo-list/1200/800", alt: "Retailer List" }
                   ].map((img, i) => (
                     <div key={i} className="aspect-[9/16] rounded-xl overflow-hidden border border-brand-ink/10 shadow-sm">
                       <img src={img.src} alt={img.alt} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
@@ -2043,7 +2043,7 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
               <div className="space-y-8">
                 <div className="rounded-3xl overflow-hidden border border-brand-ink/10 shadow-xl">
                   <img 
-                    src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/image%20121.png" 
+                    src="https://picsum.photos/seed/retailo-img121/1200/800" 
                     alt="Design System Components" 
                     className="w-full h-auto"
                     referrerPolicy="no-referrer"
@@ -2051,7 +2051,7 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
                 </div>
                 <div className="rounded-3xl overflow-hidden border border-brand-ink/10 shadow-xl">
                   <img 
-                    src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/image%20122.png" 
+                    src="https://picsum.photos/seed/retailo-img122/1200/800" 
                     alt="Visual Language" 
                     className="w-full h-auto"
                     referrerPolicy="no-referrer"
@@ -2087,7 +2087,7 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
               </div>
               <div className="rounded-3xl overflow-hidden border border-brand-ink/10 shadow-xl">
                 <img 
-                  src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/retailo/To%20Do%20-%20Agent%20Performance.png" 
+                  src="https://picsum.photos/seed/retailo-todo-perf/1200/800" 
                   alt="Impact Visualization" 
                   className="w-full h-auto"
                   referrerPolicy="no-referrer"
@@ -2123,7 +2123,7 @@ function RetailoCaseStudy({ onBack }: { onBack: () => void }) {
                 “In high-scale marketplaces, product design is not about visual polish — it’s about enabling movement. When agents move faster, retailers restock faster, and payments reconcile cleanly, the marketplace grows.”
               </p>
               <footer className="text-xs uppercase tracking-[0.3em] font-bold text-brand-ink/40">
-                Usama Azam — Senior Product Designer
+                Syed Gohar Ali — Senior Product Designer
               </footer>
             </blockquote>
           </section>
@@ -2271,7 +2271,7 @@ function GotPhotoCaseStudy({ onBack }: { onBack: () => void }) {
           <div className="space-y-4">
             <div className="aspect-[16/9] bg-brand-ink/[0.04] rounded-3xl overflow-hidden border border-brand-ink/5">
               <img 
-                src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/casestudy/gotphoto.png" 
+                src="https://picsum.photos/seed/gotphoto-cs/1200/800" 
                 alt="Shop Experience Overview" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -2677,7 +2677,7 @@ function ZyprovaCaseStudy({ onBack }: { onBack: () => void }) {
             <div className="space-y-4">
               <div className="aspect-[16/9] bg-brand-ink/5 rounded-2xl overflow-hidden border border-brand-ink/5">
                 <img 
-                  src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/casestudy/zyprova.png" 
+                  src="https://picsum.photos/seed/zyprova-cs/1200/800" 
                   alt="Zyprova Dashboard Overview" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -2724,7 +2724,7 @@ function ZyprovaCaseStudy({ onBack }: { onBack: () => void }) {
           <div className="space-y-4">
             <div className="aspect-[16/9] bg-brand-ink/5 rounded-2xl overflow-hidden border border-brand-ink/5">
               <img 
-                src="https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/zyprova/CAP.jpg" 
+                src="https://picsum.photos/seed/zyprova-cap/1200/800" 
                 alt="Early Concept Exploration" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -2767,7 +2767,7 @@ function ZyprovaCaseStudy({ onBack }: { onBack: () => void }) {
           <div className="space-y-4">
             <div className="aspect-[16/9] bg-brand-ink/5 rounded-2xl overflow-hidden border border-brand-ink/5">
               <img 
-                src="https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/zyprova/information%20architecture.png" 
+                src="https://picsum.photos/seed/zyprova-ia/1200/800" 
                 alt="Information Architecture Diagram" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -2834,7 +2834,7 @@ function ZyprovaCaseStudy({ onBack }: { onBack: () => void }) {
           <div className="space-y-4">
             <div className="aspect-[16/9] bg-brand-ink/5 rounded-2xl overflow-hidden border border-brand-ink/5">
               <img 
-                src="https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/zyprova/Analytics.jpg" 
+                src="https://picsum.photos/seed/zyprova-analytics/1200/800" 
                 alt="Refined Analytics Workflow" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -2856,7 +2856,7 @@ function ZyprovaCaseStudy({ onBack }: { onBack: () => void }) {
             <div className="space-y-4">
               <div className="aspect-[16/9] bg-brand-ink/5 rounded-2xl overflow-hidden border border-brand-ink/5">
                 <img 
-                  src="https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/zyprova/org%20creation.jpg" 
+                  src="https://picsum.photos/seed/zyprova-org/1200/800" 
                   alt="Organization Creation Flow" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -2874,7 +2874,7 @@ function ZyprovaCaseStudy({ onBack }: { onBack: () => void }) {
             <div className="space-y-4">
               <div className="aspect-[16/9] bg-brand-ink/5 rounded-2xl overflow-hidden border border-brand-ink/5">
                 <img 
-                  src="https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/zyprova/RBAC.jpg" 
+                  src="https://picsum.photos/seed/zyprova-rbac/1200/800" 
                   alt="RBAC Management UI" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -2892,7 +2892,7 @@ function ZyprovaCaseStudy({ onBack }: { onBack: () => void }) {
             <div className="space-y-4">
               <div className="aspect-[16/9] bg-brand-ink/5 rounded-2xl overflow-hidden border border-brand-ink/5">
                 <img 
-                  src="https://raw.githubusercontent.com/azaamusama/portfolioimages/refs/heads/main/zyprova/Finance.jpg" 
+                  src="https://picsum.photos/seed/zyprova-finance/1200/800" 
                   alt="Financial Management Dashboard" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -3114,7 +3114,7 @@ function HisaabCaseStudy({ onBack }: { onBack: () => void }) {
             <div className="space-y-4">
               <div className="aspect-[16/10] bg-brand-ink/5 rounded-2xl overflow-hidden border border-brand-ink/5">
                 <img 
-                  src="https://raw.githubusercontent.com/azaamusama/portfolioimages/main/casestudy/hisaab.png" 
+                  src="https://picsum.photos/seed/hisaab-cs/1200/800" 
                   alt="Hisaab Ledger Overview" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
