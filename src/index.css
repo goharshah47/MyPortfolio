@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --color-brand-bg: var(--brand-bg);
+  --color-brand-ink: var(--brand-ink);
+}
+
+:root {
+  --brand-bg: #fdfcfb;
+  --brand-ink: #121212;
+}
+
+.dark {
+  --brand-bg: #0a0a0a;
+  --brand-ink: #fdfcfb;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    @apply transition-colors duration-500;
+  }
+  body {
+    @apply bg-brand-bg text-brand-ink antialiased selection:bg-brand-ink selection:text-brand-bg transition-colors duration-500;
+  }
+}
+
+.case-study-card {
+  @apply border-t border-brand-ink/10 pt-8 pb-12 transition-all duration-500;
+}
+
+.case-study-card:hover {
+  @apply border-brand-ink/40;
+}
